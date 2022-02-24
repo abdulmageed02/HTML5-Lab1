@@ -1,0 +1,35 @@
+
+mark {
+    background-color: blue;
+    transition: 3s;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.textContainer {
+
+    column-rule: none;
+}
+
+.container:hover {
+    box-shadow: 10px 10px 20px rgba(43, 205, 226, 0.76);
+    transform: skew(0);
+}
+
+img {
+    box-shadow: 10px 10px 20px rgba(27, 57, 238, 0.62);
+    transform: rotate(30deg);
+}
+
+img:hover {
+    transform: rotate(0) scale(1.25);
+    box-shadow: 10px 10px 20px rgb(215, 200, 14);
+}
+
+img:active {
+    box-shadow: 10px 10px 20px rgb(213, 10, 17);
+    border: 2px dashed orange;
+}

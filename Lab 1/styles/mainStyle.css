@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    height: 700px;
+    border: 2px solid saddlebrown;
+    margin: 100px auto;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(138, 43, 226, 0.62), rgb(245 136 136) 5px 5px 100px inset;
+    transition: all 3s;
+    display: -webkit-box;
+}
+
+.container:hover {
+    box-shadow: 10px 10px 20px rgba(43, 205, 226, 0.76);
+    transform: skew(7deg);
+}
+
+.container:active {
+    transform: scale(0.5);
+}
+
+.textContainer {
+    width: 30%;
+    height: 97%;
+    border: 2px solid saddlebrown;
+    -webkit-box-flex: 2;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgb(225, 163, 47) 5px 5px 100px inset;
+    overflow: auto;
+    column-count: 3;
+    column-rule: 2px dashed red;
+}
+
+.imageContainer {
+    width: 60%;
+    border: 2px solid saddlebrown;
+    -webkit-box-flex: 2;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgb(187, 168, 0) 5px 5px 100px inset;
+    align-content: center;
+    overflow-x: auto;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+mark{
+    background-color: darkorange;
+    transition: 3s;
+}
+
+mark:active{
+    background-color: greenyellow;
+}
+
+mark:hover {
+    background-color: #ee338e;
+
+}
+
+img {
+    margin: 10px 20px 20px 50px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(138, 43, 226, 0.62);
+    transition: all 3s;
+}
+
+.center{
+    margin-left: 20px;
+}
+
+img:hover {
+    border: 2px double blue;
+    box-shadow: 10px 10px 20px rgb(215, 200, 14);
+    transform: scale(1.5);
+}
+img:active {
+    box-shadow: 10px 10px 20px rgb(213, 10, 17);
+    transform: scale(3);
+}
